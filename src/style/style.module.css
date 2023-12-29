@@ -1,0 +1,253 @@
+.bgc {
+    background: #F5F6F9;
+}
+
+.logo img {
+    width: 70px;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+.menu {
+    color: #385182;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.backcolor {
+    border-radius: 10px;
+    background: #385182;
+    box-shadow: 0px -2px 14px 0px rgba(0, 0, 0, 0.05), 1px 9px 12px 0px rgba(0, 0, 0, 0.15) inset;
+}
+
+.textcolor {
+    color: aliceblue;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 15px;
+}
+
+.layout {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.typo {
+    color: #032342;
+    font-family: Fredoka;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120.5%;
+    /* 72.3px */
+}
+
+.toolimg {
+    width: 130px;
+    height: 120px;
+    flex-shrink: 0;
+}
+
+.toolimg2 {
+    width: 270px;
+    height: 250px;
+    flex-shrink: 0;
+}
+
+.toolimg3 {
+    width: 250px;
+    height: 250px;
+    flex-shrink: 0;
+}
+
+.toolimg4 {
+    width: 281px;
+    height: 224px;
+    flex-shrink: 0;
+}
+
+.toolimg5 {
+    width: 300px;
+    height: 303px;
+}
+
+.bgstyle {
+    border-radius: 20px;
+    background: #6285CA;
+}
+
+.bgstyle1 {
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    background: #6285CA;
+}
+
+.span1 {
+    color: #6285CA
+}
+
+.buttonbg {
+    color: aliceblue;
+    border-radius: 10px;
+    background: #385182;
+}
+
+.img6 {
+    color: #6285CA;
+    font-family: Fredoka;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.heading {
+    color: #6285CA;
+    font-family: DM Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    /* 112.5% */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.title {
+    color: #032342;
+    font-family: Fredoka;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    /* 125% */
+}
+
+.pera {
+    color: #888;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.884%;
+    /* 22.381px */
+}
+
+.buttonbg1 {
+    color: white;
+    width: 189px;
+    height: 52px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #385182;
+    box-shadow: 0px -2px 14px 0px rgba(0, 0, 0, 0.05), 1px 9px 12px 0px rgba(0, 0, 0, 0.15) inset;
+}
+
+.buttonbg2{
+    color: white;
+    border: 2px solid white;
+    width: 189px;
+    height: 52px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #385182;
+    box-shadow: 0px -2px 14px 0px rgba(0, 0, 0, 0.05), 1px 9px 12px 0px rgba(0, 0, 0, 0.15) inset;
+}
+/*--------------------------------------*/
+.cad {
+    width: 390px;
+    height: 450px;
+    flex-shrink: 0;
+    background-color: #385182;
+    border-radius: 30px;
+}
+
+.cardt1 {
+    color: white;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 133.333% */
+    margin-bottom: 30px;
+}
+
+.cardt2 {
+    color: #F5F6F9;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.title1 {
+    color: #6285CA;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    /* 112.5% */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.title2 {
+    color: #032342;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.title3 {
+    color: #6285CA;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    /* 112.5% */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: start;
+}
+
+.peraa {
+    color: #032342;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cad1 {
+    width: 600px;
+    height: 300px;
+    flex-shrink: 0;
+    background-color: #385182;
+    border-radius: 30px;
+    position: absolute;
+}
+
+.position{
+    position: relative;
+    top:200px;
+    z-index:2;
+}
+
+.toolimg6 {
+    width: 250px;
+    height:300px;
+    flex-shrink: 0;
+}
