@@ -22,15 +22,15 @@ const Mainbaner = () => {
                             <div className="d-flex">
                                 <div className="col-3">
                                     <div className='text-center mx-2'>
-                                        <p className={`${style.buttonbg} fs-5`}>Get Appointment</p>
+                                        <button className={`${style.buttonbg} fs-5 fw-semibold`}>Get Appointment</button>
                                     </div>
                                 </div>
                                 <div className="col-3">
                                     <div className='text-center'>
-                                        <p className={`${style.buttonbg} fs-5 mt-2`}>Learn More</p>
+                                        <button className={`${style.buttonbg} fs-5 mt-2`}>Learn More</button>
                                     </div>
                                 </div>
-                                <div className="col-3">
+                                <div className="col-3 mt-5">
                                     <div className='text-center'>
                                         <img src="/image 50 (Traced) (1).png" alt="" />
                                     </div>

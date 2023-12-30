@@ -1,5 +1,8 @@
 import React from 'react'
 import style from '../style/style.module.css'
+import Link from 'next/link'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function Header() {
   return (
@@ -11,13 +14,13 @@ function Header() {
             <p className='fs-5 fw-bold'>Dhameliya  <br />Kidney Hospital</p>
           </div>
           <div className="menu">
-            <ul className="d-flex align-item-center">
-              <li className="fs-5 fw-semibold m-3">Home</li>
-              <li className="fs-5 fw-semibold m-3">About</li>
-              <li className="fs-5 fw-semibold m-3">Madical service</li>
-              <li className="fs-5 fw-semibold m-3">Career</li>
-              <li className="fs-5 fw-semibold m-3">Contact us</li>
-              <li className="fs-5 fw-semibold m-3">News</li>
+            <ul className="d-flex align-item-center mt-3">
+              <li><Link href={"/"} className="fs-4 fw-bold px-3 text-dark">Home</Link></li>
+              <li><Link href={'/about'} className="fs-4 fw-bold px-3 text-dark">About</Link></li>
+              <li><Link href={'/medical'} className="fs-4 fw-bold px-3 text-dark">Madical service</Link></li>
+              <li><Link href={'/career'} className="fs-4 fw-bold px-3 text-dark">Career</Link></li>
+              <li><Link href={'/contactus'} className="fs-4 fw-bold px-3 text-dark">Contact us</Link></li>
+              <li><Link href={"/"} className="fs-4 fw-bold px-3 text-dark">News</Link></li>
             </ul>
           </div>
           <div className='d-flex button m-2'>

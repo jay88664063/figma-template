@@ -1,3 +1,11 @@
+.br {
+    border: 2px solid red;
+}
+
+.justify {
+    text-align: justify;
+}
+
 .bgc {
     background: #F5F6F9;
 }
@@ -97,6 +105,7 @@
     color: aliceblue;
     border-radius: 10px;
     background: #385182;
+    padding: 10px;
 }
 
 .img6 {
@@ -152,7 +161,7 @@
     box-shadow: 0px -2px 14px 0px rgba(0, 0, 0, 0.05), 1px 9px 12px 0px rgba(0, 0, 0, 0.15) inset;
 }
 
-.buttonbg2{
+.buttonbg2 {
     color: white;
     border: 2px solid white;
     width: 189px;
@@ -162,6 +171,7 @@
     background: #385182;
     box-shadow: 0px -2px 14px 0px rgba(0, 0, 0, 0.05), 1px 9px 12px 0px rgba(0, 0, 0, 0.15) inset;
 }
+
 /*--------------------------------------*/
 .cad {
     width: 390px;
@@ -215,12 +225,13 @@
     color: #6285CA;
     font-size: 25px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 18px;
     /* 112.5% */
-    letter-spacing: 3px;
+    letter-spacing: 15px;
     text-transform: uppercase;
     text-align: start;
+    font-family: Fredoka;
 }
 
 .peraa {
@@ -233,21 +244,136 @@
 
 .cad1 {
     width: 600px;
-    height: 300px;
+    height: 280px;
     flex-shrink: 0;
     background-color: #385182;
-    border-radius: 30px;
-    position: absolute;
 }
 
-.position{
+.relative {
+    border-radius: 30px;
     position: relative;
-    top:200px;
-    z-index:2;
+}
+
+.absolute {
+    position: absolute;
+    bottom: 40px;
 }
 
 .toolimg6 {
     width: 250px;
-    height:300px;
+    height: 300px;
     flex-shrink: 0;
+}
+
+.title4 {
+    color: #6285CA;
+    font-family: Fredoka;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.buttonbg3 {
+    color: #6285CA;
+    border: 2px solid #6285CA;
+    width: 189px;
+    height: 52px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+/*----------------------------------------------*/
+.title5 {
+    color: #6285CA;
+    font-family: Fredoka;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card1 {
+    width: 624.861px;
+    height: 577.514px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: linear-gradient(151deg, #E8EDF7 3.71%, #FFF 82.26%);
+}
+
+.peraa1 {
+    color: #032342;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    word-spacing: 15px;
+}
+
+.tj {
+    text-align: justify;
+}
+
+.title6 {
+    color: #6285CA;
+    font-family: Fredoka;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.peraa2 {
+    color: #032342;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    word-spacing: 15px;
+}
+
+.card2 {
+    width: 1184px;
+    height: 330px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-color: #385182;
+}
+
+.btn1 {
+    width: 149px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    color: #032342;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.input {
+    width: 269px;
+    height: 52.616px;
+    flex-shrink: 0;
+}
+
+.card3 {
+    width: 604px;
+    height:420px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background-color:white;
+    box-shadow: -10px -16px 56px -1px rgba(0, 0, 0, 0.05);
+
 }
