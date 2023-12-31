@@ -18,6 +18,7 @@ const page = () => {
                             <p className={`${style.tj} fs-5`}>Dhameliya Kidney Hospital has born out of the need for a good center which catered to patients with complicated kidney diseases in Surat. It is a judicious blend of high end technology, world class expertise and outstanding personalized care. With time it has become best kidney hospital in SURAT. Hospital with all facilities under one roof provides for greater efficiency in meeting the overall needs of a patient.</p>
                         </div>
                         <div className={`${style.card3} pt-5 px-4`}>
+                            <h1 className={`${style.title4}`}>LOGIN</h1>
                             <input className={`${style.input}`} type="text" name="name" placeholder="enter your name" />
                             <input className={`${style.input}`} type="text" name="email" placeholder="enter your email" />
                             <input className={`${style.input}`} type="text" name="number" placeholder="enter your number" />

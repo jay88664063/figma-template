@@ -375,5 +375,17 @@
     border-radius: 30px;
     background-color:white;
     box-shadow: -10px -16px 56px -1px rgba(0, 0, 0, 0.05);
+}
 
+.footer{
+    background-color: #032342;
+}
+
+.ml{
+    margin-left:300px;
+}
+
+.bgw{
+    background-color: #FFF;
+    width:5%;
 }
